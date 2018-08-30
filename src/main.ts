@@ -10,4 +10,4 @@ gato.desplazar();
 gato.nombre = 'Tom';
 //get nombre
 console.log('gato.nombre: ', gato.nombre);
-(<Gato>gato).ronronear();
+(<Gato>gato).ronronear(); 
