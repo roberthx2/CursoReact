@@ -25,4 +25,19 @@
 
 	node /path
 
-7. 
+7. Compilar multiples archivos
+
+	En el archivo de configuracion "tsconfig.json" agregar lo siguiente
+
+	"include": [
+		"./src/**/*.ts"
+	]
+
+8. Establecer directorio de salida para los archivos compilados
+
+	En el archivo de configuracion "tsconfig.json", agregar a la clave "compilerOptions" el valor "outDir": "./path" 
+
+9. Comando para que supervisa el codigo y compila en tiempo real
+
+	tsc --watch
+
